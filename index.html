@@ -100,6 +100,30 @@
     		border-style: solid;
     		border-color: transparent transparent black transparent;
 		}
+		.AdvanceZero .tooltiptext3 {
+    		visibility: hidden;
+    		width: 120px;
+    		background-color: black;
+    		color: #fff;
+    		text-align: center;
+    		padding: 5px 0;
+    		border-radius: 6px;
+    		position: absolute;
+    		z-index: 1;
+		}
+		.AdvanceZero:hover .tooltiptext3 {
+    		visibility: visible;
+		}
+		AdvanceZero .tooltiptext3::after {
+    		    content: " ";
+   		 position: absolute;
+    		bottom: 100%;
+    		left: 50%;
+    		margin-left: -5px;
+    		border-width: 5px;
+    		border-style: solid;
+    		border-color: transparent transparent black transparent;
+		}
 		</style>
 		<link rel="icon" href="TechDiff.ico">
 	</head>
@@ -122,12 +146,18 @@
 		
 
 		<div class="tooltip">
-		<a href="C:ClassicPi.html">                
+		<a href="ClassicPi.html">                
 		<img border="0" alt="ImgNotFound" src="ClassicPi.png" length = 500px, width = 500px>
 		</a>
 		<span class="tooltiptext">ClassicPi</span>
 		</div>
 		
+		<div class="AdvanceZero">
+		<a href="AdvanceZero.html">                
+		<img border="0" alt="ImgNotFound" src="AdvanceZero.png" length = 500px, width = 500px>
+		</a>
+		<span class="tooltiptext">ClassicPi</span>
+		</div>
 
 		
 <br>
